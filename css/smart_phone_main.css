@@ -1,26 +1,26 @@
 @media screen and (max-width: 480px) {
 
-  table thead {
+  table .self-resoponsive thead {
     display: none;
   }
 
-  table tr {
+  table .self-resoponsive tr {
     width: 100%;
   }
 
-  table td {
+  table .self-resoponsive td {
     display: block;
     text-align: right;
   }
 
-  table td:before {
+  table .self-resoponsive td:before {
     content: attr(data-label);
     float: left;
     font-weight: bold;
     margin-right: 10px;
   }
 
-  table td:first-child {
+  table .self-resoponsive td:first-child {
     background: #e9727e;
     color: #fff;
     font-weight: bold;
