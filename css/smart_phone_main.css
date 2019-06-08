@@ -1,19 +1,19 @@
 @media screen and (max-width: 480px) {
 
-  table .self-resoponsive thead {
+  table .self-responsive thead {
     display: none;
   }
 
-  table .self-resoponsive tr {
+  table .self-responsive tr {
     width: 100%;
   }
 
-  table .self-resoponsive td {
+  table .self-responsive td {
     display: block;
     text-align: right;
   }
 
-  table .self-resoponsive td:before {
+  table .self-responsive td:before {
     content: attr(data-label);
     float: left;
     font-weight: bold;
