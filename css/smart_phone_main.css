@@ -1,0 +1,29 @@
+@media screen and (max-width: 480px) {
+
+  table thead {
+    display: none;
+  }
+
+  table tr {
+    width: 100%;
+  }
+
+  table td {
+    display: block;
+    text-align: right;
+  }
+
+  table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  table td:first-child {
+    background: #e9727e;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+  }
+}

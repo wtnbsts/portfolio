@@ -99,6 +99,15 @@ ul.menu_second > li > a:hover {
 #home{
   text-align: left;
 }
+
 #vision{
+  text-align: left;
+}
+
+table tr{
+  text-align: center;
+}
+
+table td{
   text-align: left;
 }
