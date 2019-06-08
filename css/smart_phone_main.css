@@ -1,16 +1,26 @@
 @media screen and (max-width: 480px) {
 
+  table.self-responsive {
+    border-collapse: separate;
+    border-spacing: 0px 8px;
+  }
+
   table.self-responsive thead {
     display: none;
   }
 
   table.self-responsive tr {
+    border-top: solid 8px #e9727e;
     width: 100%;
   }
 
   table.self-responsive td {
     display: block;
     text-align: right;
+  }
+
+  table.self-responsive td dl {
+    list-style: none;
   }
 
   table.self-responsive td:before {
@@ -20,12 +30,5 @@
     margin-right: 10px;
     background: #e9727e;
     color: #fff;
-  }
-
-  table.self-responsive td:first-child {
-    font-weight: bold;
-    background: #e9727e;
-    color: #fff;
-    text-align: center;
   }
 }
