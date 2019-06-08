@@ -1,0 +1,16 @@
+.outbox {
+    position: relative;
+    height: 10rem;
+    text-align: center;
+}
+
+.inbox {
+    position: absolute;
+    width: 80%;
+    height:3rem;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

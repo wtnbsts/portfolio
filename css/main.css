@@ -1,0 +1,104 @@
+.main{
+  font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+#pict{
+  height: 100px;
+  background-image: url("./../img/img_back.jpg");
+  background-size: cover;
+}
+
+.fixed{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+ul.menu_first {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+
+ul.menu_first > li {
+  width: 25%; /* グローバルナビ4つ */
+  height: 50px;
+  line-height: 51px;
+  background-color: #1b2538;
+  }
+
+ul.menu_first > li > a {
+	display: block;
+	text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+ul.menu_first > li > a:hover {
+  color: #1b2538;
+  background-color: #a9bce2;
+}
+
+li.sub_menu > ul.menu_second {
+  position: absolute;
+  top: 50px;
+  width: 25%;
+  display: none;
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.menu_second > li {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #03300d;
+  }
+
+ul.menu_second > li > a {
+  border-top: 1px solid #eee;
+	display: block;
+	text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+ul.menu_second > li > a:hover {
+  color: #03300d;
+  background-color: #a5f395;
+}
+
+#contents{
+  text-align: center;
+  padding: 60px 0 0 0;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.background{
+  background-color:white;
+}
+
+.titlebtn{
+  margin-top : 1%; 
+  margin-bottom : 1%;
+}
+
+#ref_title{
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+#home{
+  text-align: left;
+}
+#vision{
+  text-align: left;
+}
