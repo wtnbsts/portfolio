@@ -21,4 +21,11 @@
     background: #e9727e;
     color: #fff;
   }
+
+  table.self-responsive td:first-child {
+    font-weight: bold;
+    background: #e9727e;
+    color: #fff;
+    text-align: center;
+  }
 }
