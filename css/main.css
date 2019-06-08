@@ -52,6 +52,7 @@ li.sub_menu > ul.menu_second {
   display: none;
   list-style: none;
   padding-left: 0;
+  z-index: 1000;
 }
 
 ul.menu_second > li {
