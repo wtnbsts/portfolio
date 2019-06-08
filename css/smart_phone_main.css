@@ -1,8 +1,7 @@
 @media screen and (max-width: 480px) {
 
   table.self-responsive {
-    border-collapse: separate;
-    border-spacing: 0px 8px;
+    border-collapse: collapse;
   }
 
   table.self-responsive thead {
@@ -10,7 +9,7 @@
   }
 
   table.self-responsive tr {
-    border-top: solid 8px #e9727e;
+    border-top: solid 15px #e9727e;
     width: 100%;
   }
 
