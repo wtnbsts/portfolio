@@ -5,6 +5,7 @@ $(function() {
 	const contents = $('#contents');
 	const body = $('html, body');
 	const submenu = $('li.sub_menu');
+	const home = $('#nav_home');
 
 	var pictBottom;
 	$(window).scroll(function() {
@@ -25,7 +26,7 @@ $(function() {
 		}
 	});
 
-	$('#nav_self').on({
+	home.on({
 	    'click': function() {
 	        contents.load("home.html", function(response, status, xhr) {
 			});
@@ -63,6 +64,7 @@ $(function() {
 		}
 	});
 
-	$('#nav_self').click();
+	home.click();
+	home.click();
 
 });
