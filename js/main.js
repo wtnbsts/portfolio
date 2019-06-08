@@ -38,6 +38,7 @@ $(function() {
 	    'click': function() {
 			$('#contents').load("jisseki_project.html", function(response, status, xhr) {
 				$('html, body').scrollTop(0);
+				$('li.sub_menu').mouseout();
 			});
 		}
 	});
@@ -45,6 +46,7 @@ $(function() {
 	    'click': function() {
 			$('#contents').load("jisseki_quality.html", function(response, status, xhr) {
 				$('html, body').scrollTop(0);
+				$('li.sub_menu').mouseout();
 			});
 		}
 	});
@@ -57,6 +59,6 @@ $(function() {
 		}
 	});
 
-	$('#nav_self').trigger('click');
+	$('#nav_self').click();
 
 });

@@ -13,6 +13,6 @@ $(function() {
         });
     })
     $pass.on("keydown", function(e) {
-        if(e.keyCode === 13) $confirm.trigger("click");
+        if(e.keyCode === 13) $confirm.click();
     });
 });
